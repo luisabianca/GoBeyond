@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
 footer {
     margin-top: 200px;
     background-color: #000;
@@ -58,20 +60,12 @@ footer .contact ul li{
     background-color: #fff;
     margin-bottom: 25px;
     border-radius: 5px;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     height: 38px;
     width: 195px;
     display: flex;
     align-items: center;
-}
-
-footer .contact img{
-    margin-top: 10px;
-}
-  
-footer .contact ul li:last-child{
-    margin-bottom: 0;
 }
   
 footer .contact ul li a{
@@ -80,20 +74,6 @@ footer .contact ul li a{
     color: #000;
     text-decoration: none;
     font-weight: 600;
-}
-  
-footer .contact ul li a::before{
-    content: '';
-    background-image: url('image/ico-email.png');
-    height: 16px;
-    width: 16px;
-    background-size: 100% 100%;
-    display: inline-block;
-    margin-right: 18px;
-}
-  
-footer .contact ul li:last-child a::before{
-    background-image: url('image/ico-headphone.png');
 }
 
 footer .created div{
@@ -114,6 +94,19 @@ footer .created p{
     font-weight: normal;
     line-height: 14px;
     color: #fff;
+}
+
+#vtex {
+    width: 52px;
+    height: 18px;
+}
+
+#mail {
+    margin-right: 18px;
+}
+
+#headset {
+    margin-left: 18px;
 }
   
 @media screen and (max-width: 600px) {
